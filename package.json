@@ -2,7 +2,8 @@
   "name": "mjml2json",
   "version": "1.0.1",
   "description": "A package to convert a MJML template from XML to JSON",
-  "main": "src/mjml2json.js",
+  "type": "module",
+  "main": "src/mjml2json.mjs",
   "scripts": {
     "build": "babel src -d lib",
     "lint": "eslint src test",
